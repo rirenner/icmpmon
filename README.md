@@ -8,6 +8,7 @@ Prebuilt files are in the [Releases](https://github.com/Eun/icmpmon/releases) se
 
 ## Running
     icmpmon -c config.hjson
+    # interval in milliseconds 10000 == 10seconds
 
 ## Warranty
 This product comes without warranty in any form.
@@ -28,6 +29,7 @@ This product comes without warranty in any form.
     go get -u github.com/hjson/hjson-go
     go get -u github.com/jteeuwen/go-bindata/...
     cd icmpmon
+    chmod +x make.bat
     ./make.bat
 
 ## Other notes
